@@ -8,6 +8,7 @@ function solution(numbers) {
   }
   return join_n;
 }
+
 //b-a  => ba - ab =>  53 - 35  =  [a,b ]
 // 양수 나오면 자리를 바꿔요 [10,4] =>a,b => a-b (오름차순)  10 - 4   [4, 10]
 numbers = [3, 30, 34, 5, 9];

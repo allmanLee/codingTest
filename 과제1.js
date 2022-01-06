@@ -43,7 +43,7 @@ function solution(arr) {
         .reduce((acc, el) => acc + +el, 0);
       return sumA - sumB !== 0 ? sumA - sumB : nameOrder(a, b);
     };
-    
+
     const minSizeSort =
       a.length - b.length !== 0 ? a.length - b.length : sumOnlyNumber(a, b);
 

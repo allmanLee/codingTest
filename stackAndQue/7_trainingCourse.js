@@ -1,6 +1,5 @@
-//아직 안해본 문제
+// 아직 안해본 문제
 // 나중에 해보기
-
 function solution(need, plan) {
   let answer = "YES";
   let queue = need.split("");
